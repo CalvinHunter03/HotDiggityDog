@@ -44,7 +44,7 @@ class LevelOne extends Phaser.Scene {
         this.load.tilemapTiledJSON("map", "HotDogMap.json");       // Load JSON of tilemap
         
         this.load.image("hotdog_truck", "hotdog_truck.png"); //hot dog truck
-        this.load.image("hotdog", "hotdog.png"); // hot dog itself
+        this.load.image("hotdog", "hotDog.png"); // hot dog itself
         this.load.image("soda_bottle" ,"sodaBottle.png"); //soda bottle (projectile thrown at player)
         this.load.image("construction_worker", "construction_worker.png");
         this.load.image("tourist", "tourist.png");
